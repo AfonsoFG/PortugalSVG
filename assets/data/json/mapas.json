@@ -1,0 +1,76 @@
+{
+	"mapas": [
+		{
+		  "id": "1",
+		  "nome": "Nova Flora de Portugal",
+		  "nomeCurto": "Nova Flora",
+		  "nomeVector": "novaFlora",
+		  "svg": "mapas/novaFlora.svg",
+		  "created_at": "2019-06-13 10:00:00",
+		  "updated_at": "2019-06-13 10:00:00"
+		},
+		{
+		  "id": "2",
+		  "nome": "Regiões de Portugal (NUTS2)",
+		  "nomeCurto": "Regiões (NUTS2)",
+		  "nomeVector": "regioes2N",
+		  "svg": "mapas/regioes2N.svg",
+		  "created_at": "2019-06-13 10:00:00",
+		  "updated_at": "2019-06-13 10:00:00"
+		},
+		{
+		  "id": "3",
+		  "nome": "Distritos de Portugal",
+		  "nomeCurto": "Distritos",
+		  "nomeVector": "distritos",
+		  "svg": "mapas/distritos.svg",
+		  "created_at": "2019-06-13 10:00:00",
+		  "updated_at": "2019-06-13 10:00:00"
+		},
+		{
+		  "id": "5",
+		  "nome": "Regiões de Portugal (NUTS3)",
+		  "nomeCurto": "Regiões (NUTS3)",
+		  "nomeVector": "regioes3N",
+		  "svg": "mapas/regioes3N.svg",
+		  "created_at": "2019-06-13 10:00:00",
+		  "updated_at": "2019-06-13 10:00:00"
+		},
+		{
+		  "id": "6",
+		  "nome": "Áreas Protegidas de Portugal",
+		  "nomeCurto": "Áreas Protegidas",
+		  "nomeVector": "areasProtegidas",
+		  "svg": "mapas/areasProtegidas.svg",
+		  "created_at": "2019-06-13 10:00:00",
+		  "updated_at": "2019-06-13 10:00:00"
+		},
+		{
+		  "id": "7",
+		  "nome": "Concelhos Portugal Continental",
+		  "nomeCurto": "Concelhos",
+		  "nomeVector": "concelhos",
+		  "svg": "mapas/concelhos.svg",
+		  "created_at": "2019-06-13 10:00:00",
+		  "updated_at": "2019-06-13 10:00:00"
+		},
+		{
+			"id": "4",
+			"nome": "Arquipélagos",
+			"nomeCurto": "Arquipélagos",
+			"nomeVector": "arquipelagos",
+			"svg": "mapas/arquipelagos.svg",
+			"created_at": "2019-06-13 10:00:00",
+			"updated_at": "2019-06-13 10:00:00"
+		  },
+		{
+		  "id": "8",
+		  "nome": "Arquipélagos (Ilhas) ",
+		  "nomeCurto": "Arquipélagos (Ilhas)",
+		  "nomeVector": "arquipelagosIlhas",
+		  "svg": "mapas/arquipelagosIlhas.svg",
+		  "created_at": "2019-06-13 10:00:00",
+		  "updated_at": "2019-06-13 10:00:00"
+		}
+	]
+}

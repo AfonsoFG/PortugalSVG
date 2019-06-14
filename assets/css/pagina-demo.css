@@ -1,0 +1,141 @@
+/*! Generated using the Bootstrap Customizer (https://getbootstrap.com/docs/3.4/customize/) */
+/*! Bootstrap v3.4.1 (https://getbootstrap.com/) Copyright 2011-2019 Twitter, Inc.Licensed under MIT */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent}a:active,a:hover{outline:0}svg:not(:root){overflow:hidden}select{color:inherit;font:inherit;margin:0;text-transform:none;font-family:inherit;font-size:inherit;line-height:inherit}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:10px;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}a{text-decoration:none;font-weight:700;color:#73AF00;transition:all 0.3s ease-out}a:hover,a:focus{color:#FF4B55;box-shadow:0 3px #FF4B55}a:focus{outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}.container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto; margin-top:40px}.row{margin-right:-15px;margin-left:-15px}.col{position:relative;min-height:1px;padding-right:15px;padding-left:15px;width:100%;display:inline-block;vertical-align:middle;float:none;max-height:550px}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px;margin-top:100px}}@media (min-width:1200px){.container{width:1170px}}@media (min-width:992px){.col{float:left;width:50%}}.container:before,.container:after,.row:before,.row:after{display:table;content:" "}.container:after,.row:after{clear:both}.center-block{display:block;margin-right:auto;margin-left:auto}
+.col100 {
+    width: 100%;
+
+    margin-bottom: 60px;
+    text-align: center
+}
+.col100 h1 {
+    font-size: 1.75em;
+    font-style: oblique;
+    text-transform: uppercase
+}
+
+.col100:after{
+    height: 10px;
+    display: block;
+    content: ' ';
+    background-size: 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 21000 300'%3E%3Cpath fill='%2373AF00' d='M0 0h7603v300H0z'/%3E%3Cpath fill='%23FF4B55' d='M7603 0h13397v300H7603z'/%3E%3Cpath fill='%23FFE15A' d='M8080 0h-599l-354 300h599L8080 0z'/%3E%3C/svg%3E");
+}
+#mapPortugal svg {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* CUSTOM STYLE */
+p,
+label {
+    margin: 0 0 5px 0;
+    font-weight: 700;
+}
+
+#zonaDesc {
+    text-align:center
+}
+
+.mapZonas .lista {
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #999;
+}
+
+.mapZonas .lista div {
+    padding: 10px
+}
+
+.mapZonas .lista div:hover {
+    color: #78BD1F;
+    font-weight: 700;
+    cursor: crosshair;
+}
+
+select {
+    display: block;
+    border: 1px solid #999;
+    width: 100%;
+    height: 45px;
+    padding: 0 10px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #888;
+    background-color: #fff;
+    border-radius: 0;
+    margin-top: 5px
+}
+
+.mapSelect,
+.mapZonas,
+.mudarTema {
+    margin-bottom: 20px
+}
+
+.mapSelect{
+    margin-top: 40px
+}
+
+.mudarTema a:first-of-type {
+    margin-right: 20px
+}
+
+.github {
+    margin-bottom: 40px
+}
+
+
+
+/* CSS DO SVG */
+.z,
+.zEsp {
+    stroke:#434242;
+    stroke-width: 10;
+    fill:#FFF
+}
+
+.zCheck {
+    fill: #73AF00 !important;
+    stroke: #FFF
+}
+/* FIM CSS DO SVG */
+
+
+/* DARK THEME */
+.dark {
+    background-color: rgb(47, 53, 58)
+}
+
+.dark .z,
+.dark .zEsp {
+    fill: rgb(58, 65, 73);
+    stroke:#E1E1E1;
+    stroke-width: 10
+}
+
+.dark p,
+.dark label,
+.dark .mapZonas .lista div,
+.dark select {
+    color: #FFF
+}
+
+.dark select,
+.dark .mapZonas .lista {
+    border: 1px solid rgb(58, 65, 73);
+    background-color: rgb(58, 65, 73);
+}
+
+.dark .col100 {
+    color: #FFF
+}
+@media (min-width:992px){ 
+    .mapSelect {
+        margin-top: 0
+    }
+    .github {
+        margin-bottom: 0
+    }
+}

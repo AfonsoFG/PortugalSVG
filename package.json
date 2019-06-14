@@ -1,0 +1,31 @@
+{
+  "name": "PortugalSVG",
+  "version": "0.1.0",
+  "description": "Portugal SVG",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -c-1"
+  },
+  "keywords": [
+    "map",
+    "mapa",
+    "svg",
+    "portugal",
+    "pt",
+    "arquipelagos",
+    "distritos",
+    "concelhos",
+    "regioes",
+    "municipalities",
+    "municipios"
+  ],
+  "author": "Afonso Ferreira Gomes http://afonsogomes.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AfonsoFG/PortugalSVG.git"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
