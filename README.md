@@ -1,5 +1,5 @@
 # Mapas de Portugal  SVG
-Diferentes mapas de Portugal em SVG.
+Vários mapas de Portugal em formato SVG, optimizados para velocidade e funcionalidade.
 
 
 ### Exemplo de uso (DEMOs)
@@ -12,7 +12,7 @@ Diferentes mapas de Portugal em SVG.
 1) Fazer download e upar para um webserver próprio (se não tiver npm instalado) ou fazer clone do git.
 ```
  $  git clone https://github.com/AfonsoFG/PortugalSVG.git
- $  cd unbloatify
+ $  cd PortugalSVG
 ```
  
 2) Instalar as dependências (só o webserver)
@@ -52,8 +52,8 @@ Diferentes mapas de Portugal em SVG.
 
 
 ## Ficheiros
-* Mapas SVG em assets/mapas
-* Json e Sql em assets/data
+* Mapas SVG
+* Json e Sql
 
 
 ## Motivação
@@ -64,7 +64,7 @@ O diminuto número de visitantes ao site que utilizavam o Internet Explorer 8 pe
 Inicialmente foi criado o mapa de Portugal segundo o Nova Flora de Portugal e posteriormente criados 7 mapas adicionais que completam o conjunto que agora é partilhado com todos de forma livre e gratuita.
 
 
-### Como era e como ficou o site :)
+## Como era e como ficou o site :)
 
 Falta aqui uma imagem
 
@@ -73,5 +73,5 @@ Falta aqui uma imagem
 Utilização livre e gratuíta, desde que não comercial, e com atribuição. [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 
-### Créditos
+## Créditos
 * Inspiração nos mapas SVG da [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:SVG_maps_of_Portugal)
