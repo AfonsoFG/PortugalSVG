@@ -4,8 +4,8 @@ Vários mapas de Portugal em formato SVG, optimizados para velocidade e funciona
 
 ## DEMOS online
 
-[Página demo PortugalSVG @ Github.io](https://afonsofg.github.io/PortugalSVG/)
-[EcoCampus - Jardim Botânico da UTAD](https://ecocampus.utad.pt/jardimbotanico/especie/Pinus_pinaster)
+👉 [Página demo PortugalSVG @ Github.io](https://afonsofg.github.io/PortugalSVG/)  
+👉 [EcoCampus - Jardim Botânico da UTAD](https://ecocampus.utad.pt/jardimbotanico/especie/Pinus_pinaster)
 
 ## Correr a página de DEMO localmente
 
@@ -67,7 +67,7 @@ Inicialmente foi criado o mapa de Portugal com as regiões da Nova Flora de Port
 
 ## ✌️ Como estava e como ficou o site 😊
 
-![ScreenShot(assets/demo/img/melhorias.jpg)
+![ScreenShot](assets/demo/img/melhorias.jpg)
 
 Em cada uma das 3000+ páginas de espécie...
 
