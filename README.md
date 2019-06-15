@@ -65,13 +65,13 @@ O diminuto número de visitantes ao site que utilizavam o Internet Explorer 8 pe
 Inicialmente foi criado o mapa de Portugal com as regiões da Nova Flora de Portugal e posteriormente criados 7 mapas adicionais que completam o conjunto que agora é partilhado com todos de forma livre e gratuita.
 
 
-## ✌️ Como estava e como ficou o site 😊
+## ✌️ Como estava e como ficou o site ✌️
 
 ![ScreenShot](assets/demo/img/melhorias.jpg)
 
 Em cada uma das 3000+ páginas de espécie...
 
-Antes: 1 http request extra, 1 imagem +/- 90kb (e pixelizada...), 0 funcionalidades extra
+Antes: 1 http request extra, 1 imagem +/- 90kb (e pixelizada...), 0 funcionalidades extra  
 Depois: 0 http requests extra, 0 imagens, 3 novas funcionalidades... possibilidade de ver diferentes mapas, ver nome das regiões ao fazer hover, fácil actualização de zonas marcadas no backoffice.
 
 ## Licença
