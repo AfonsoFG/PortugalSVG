@@ -35,7 +35,8 @@ Vários mapas de Portugal em formato SVG, optimizados para velocidade e funciona
 
 ## Mapas 
 * Nova Flora de Portugal - 36kb de tamanho, 25 paths
-* Áreas Naturais Protegidas - 13 kb de tamanho, 
+* Áreas Naturais Protegidas - 13 kb de tamanho, 26 paths
+* Portugal Continental - 5kb, 1 path
 * Regiões NUTS 2 -  12kb de tamanho, 5 paths
 * Regiões NUTS 3 - 19kb de tamanho, 
 * Distritos - 24kb de tamanho, 18 paths
@@ -45,9 +46,10 @@ Vários mapas de Portugal em formato SVG, optimizados para velocidade e funciona
 
 (Tamanhos sem compressão)
 
-## Notas
+## Notas e Considerações
 * A todos os paths de zonas foi atribuido uma classe genérica chamada "z" (nome curto para poupança de espaço) bem como uma classe chamada "z" com um sufixo que é o id da zona.
 * A todos os paths foi acrescentado um atributo chamado "data-z" que tem como valor o id da zona.
+* O mapa das Áreas Protegidas de Portugal tem um path especial com a class "zEsp" que serve unicamente para marcar a fronteira do país
 * Em mapas com maior número de paths criaram-se grupos. Exemplo: o mapa de Concelhos tem os seus paths agrupados em grupos que correspondem aos Distritos e a cada um destes grupos foi atribuído um id.
 * São fornecidos também ficheiros .json e .sql quer para identificação de cada mapa quer para identificação de cada zona.
 
@@ -68,10 +70,11 @@ Inicialmente foi criado o mapa de Portugal com as regiões da Nova Flora de Port
 ## ✌️ Como estava e como ficou o site ✌️
 
 ![ScreenShot](assets/demo/img/melhorias.jpg)
-
+  
 Em cada uma das 3000+ páginas de espécie...
 
 Antes: 1 http request extra, 1 imagem +/- 90kb (e pixelizada...), 0 funcionalidades extra  
+
 Depois: 0 http requests extra, 0 imagens, 3 novas funcionalidades... possibilidade de ver diferentes mapas, ver nome das regiões ao fazer hover, fácil actualização de zonas marcadas no backoffice.
 
 ## Licença

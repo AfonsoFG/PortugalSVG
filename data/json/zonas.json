@@ -1934,6 +1934,11 @@
 		  "id": "388",
 		  "nome": "Santa Maria",
 		  "mapa_id": "8"
-		}
+		},
+		{
+			"id": "389",
+			"nome": "Portugal Continental",
+			"mapa_id": "9"
+		  }
 	]
 }

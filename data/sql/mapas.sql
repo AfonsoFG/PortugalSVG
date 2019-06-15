@@ -28,3 +28,4 @@ INSERT INTO `mapas` VALUES
 (6,'Áreas Protegidas de Portugal','Áreas Protegidas','areasProtegidas','mapas/areasProtegidas.svg','2019-06-13 10:00:00','2019-06-13 10:00:00'),
 (7,'Concelhos Portugal Continental','Concelhos','concelhos','mapas/concelhos.svg','2019-06-13 10:00:00','2019-06-13 10:00:00'),
 (8,'Arquipélagos (Ilhas) ','Arquipelagos (Ilhas)','arquipelagosIlhas','mapas/arquipelagosIlhas.svg','2019-06-13 10:00:00','2019-06-13 10:00:00'),
+(9,'Portugal Continental ','Portugal Continental','portugalContinental','mapas/portugalContinental.svg','2019-06-13 10:00:00','2019-06-13 10:00:00'));
