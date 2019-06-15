@@ -16,7 +16,7 @@ async function getMapSvg(path, callback) {
 
 let showZonas = (input) => {
     let mapa_id = JSON.parse(input).id;
-    getZonasJson('/data/json/zonas.json', (json) => {
+    getZonasJson('../data/json/zonas.json', (json) => {
         let mapZonas = document.getElementById("mapZonasLista");
         mapZonas.innerHTML = '';
         json.zonas.map(
@@ -39,7 +39,7 @@ let showZonas = (input) => {
 }
 
 let getMapas = () => {
-    getMapasJson('/data/json/mapas.json', (json) => {
+    getMapasJson('../data/json/mapas.json', (json) => {
         json.mapas.map(
             (item) => {
                 let selectMapa = document.getElementById("mapSelect");
@@ -48,7 +48,7 @@ let getMapas = () => {
 
                 option.value = JSON.stringify({
                     id: item.id,
-                    path: item.svg
+                    path: '/assets/' + item.svg
                 })
 
                 if (item.nomeVector === 'novaFlora') {
