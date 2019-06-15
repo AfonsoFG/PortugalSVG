@@ -18,7 +18,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
     height: 10px;
     display: block;
     content: ' ';
-    background-size: 100%;
+    background-size: cover;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 21000 300'%3E%3Cpath fill='%2373AF00' d='M0 0h7603v300H0z'/%3E%3Cpath fill='%23FF4B55' d='M7603 0h13397v300H7603z'/%3E%3Cpath fill='%23FFE15A' d='M8080 0h-599l-354 300h599L8080 0z'/%3E%3C/svg%3E");
 }
 #mapPortugal svg {
