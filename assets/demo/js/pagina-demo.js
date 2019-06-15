@@ -48,7 +48,7 @@ let getMapas = () => {
 
                 option.value = JSON.stringify({
                     id: item.id,
-                    path: '/assets/' + item.svg
+                    path: item.svg
                 })
 
                 if (item.nomeVector === 'novaFlora') {
