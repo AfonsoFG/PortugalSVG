@@ -36,7 +36,7 @@ let showZonas = (input) => {
             }
         );
     });
-}
+};
 
 let getMapas = () => {
     getMapasJson('data/json/mapas.json', (json) => {
@@ -49,7 +49,7 @@ let getMapas = () => {
                 option.value = JSON.stringify({
                     id: item.id,
                     path: item.svg
-                })
+                });
 
                 if (item.nomeVector === 'novaFlora') {
                     showMap(option.value); // Mapa inicial
@@ -59,7 +59,7 @@ let getMapas = () => {
             }
         );
     });
-}
+};
 
 let showMap = (input) => {
     showZonas(input);
@@ -73,7 +73,7 @@ let showMap = (input) => {
 
         divMapa.appendChild(svgMap);
     });
-}
+};
 
 document.getElementById('mapSelect').addEventListener('change', function () {
     showMap(this.value);
