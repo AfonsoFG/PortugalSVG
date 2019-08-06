@@ -11,25 +11,27 @@ async function getMapSvg(path, callback) {
 }
 
 let showZonas = (input) => {
-    let mapa_id = JSON.parse(input).id;
+    const mapa_id = JSON.parse(input).id;
     getZonasJson('data/json/zonas.json', (json) => {
         let mapZonas = document.getElementById("mapZonasLista");
         mapZonas.innerHTML = '';
-        json.zonas.map(
-            /* TODO: Remover IF de dentro do map. Fazer filter() antes */
+
+        const zonas = json.zonas.filter(
+            zona => zona.mapa_id === mapa_id
+        );
+
+        zonas.map(
             (item) => {
-                if (item.mapa_id === mapa_id) {
-                    let option = document.createElement("div");
-                    option.setAttribute('data-zona_id', item.id);
-                    option.textContent = item.nome;
-                    option.addEventListener("mouseenter", function (e) {
-                        document.querySelector('[data-z="' + item.id + '"]').classList.add("zCheck");
-                    });
-                    option.addEventListener("mouseleave", function (e) {
-                        document.querySelector('[data-z="' + item.id + '"]').classList.remove("zCheck"); 
-                    });
-                    mapZonas.appendChild(option);
-                }
+                let option = document.createElement("div");
+                option.setAttribute('data-zona_id', item.id);
+                option.textContent = item.nome;
+                option.addEventListener("mouseenter", function (e) {
+                    document.querySelector('[data-z="' + item.id + '"]').classList.add("zCheck");
+                });
+                option.addEventListener("mouseleave", function (e) {
+                    document.querySelector('[data-z="' + item.id + '"]').classList.remove("zCheck"); 
+                });
+                mapZonas.appendChild(option);
             }
         );
     });
