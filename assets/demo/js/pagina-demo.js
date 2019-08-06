@@ -50,7 +50,6 @@ let showZonas = (input) => {
                     path: item.svg
                 });
                 
-                /* TODO: Remover IF de dentro do map. Fazer filter() antes */
                 if (item.nomeVector === 'novaFlora') {
                     showMap(option.value); // Mapa inicial
                     option.setAttribute('selected', 'selected');
