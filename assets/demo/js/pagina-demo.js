@@ -1,7 +1,3 @@
-let init = () => {
-    getMapas();
-}
-
 async function getZonasJson(path, callback) {
     return callback(await fetch(path).then(r => r.json()));
 }
@@ -20,16 +16,17 @@ let showZonas = (input) => {
         let mapZonas = document.getElementById("mapZonasLista");
         mapZonas.innerHTML = '';
         json.zonas.map(
+            /* TODO: Remover IF de dentro do map. Fazer filter() antes */
             (item) => {
                 if (item.mapa_id === mapa_id) {
                     let option = document.createElement("div");
                     option.setAttribute('data-zona_id', item.id);
                     option.textContent = item.nome;
                     option.addEventListener("mouseenter", function (e) {
-                        document.querySelectorAll('[data-z="' + item.id + '"]')[0].classList.add("zCheck");
+                        document.querySelector('[data-z="' + item.id + '"]').classList.add("zCheck");
                     });
                     option.addEventListener("mouseleave", function (e) {
-                        document.querySelectorAll('[data-z="' + item.id + '"]')[0].classList.remove("zCheck"); 
+                        document.querySelector('[data-z="' + item.id + '"]').classList.remove("zCheck"); 
                     });
                     mapZonas.appendChild(option);
                 }
@@ -38,7 +35,7 @@ let showZonas = (input) => {
     });
 };
 
-let getMapas = () => {
+(getMapas = () => {
     getMapasJson('data/json/mapas.json', (json) => {
         json.mapas.map(
             (item) => {
@@ -50,7 +47,8 @@ let getMapas = () => {
                     id: item.id,
                     path: item.svg
                 });
-
+                
+                /* TODO: Remover IF de dentro do map. Fazer filter() antes */
                 if (item.nomeVector === 'novaFlora') {
                     showMap(option.value); // Mapa inicial
                     option.setAttribute('selected', 'selected');
@@ -59,7 +57,7 @@ let getMapas = () => {
             }
         );
     });
-};
+})();
 
 let showMap = (input) => {
     showZonas(input);
